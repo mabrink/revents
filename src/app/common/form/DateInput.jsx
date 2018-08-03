@@ -11,7 +11,7 @@ const DateInput = ({input: {value, onChange, ...restInput}, width, placeholder, 
             <DatePicker
             {...rest}
             placeholderText={placeholder}
-            selected={value ? moment(input.value) : null}
+            selected={value ? moment(value) : null}
             onChange={onChange}
             {...restInput}
             />
